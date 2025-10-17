@@ -38,3 +38,6 @@ setup(
     ],
     license="Apache License 2.0",
 )
+from plotsense import SmartDataCleaner
+cleaner = SmartDataCleaner()
+print("Module loaded successfully!", cleaner)
